@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;go-samples&gt;">
+    <CLASSES>
+      <root url="file://$USER_HOME$/go/src/github.com" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <excluded>
+      <root url="file://$USER_HOME$/go/src/github.com/docker/docker/pkg/archive/testdata" />
+      <root url="file://$USER_HOME$/go/src/github.com/docker/docker/hack/make/.resources-windows" />
+      <root url="file://$USER_HOME$/go/src/github.com/fsouza/go-dockerclient/.git" />
+      <root url="file://$USER_HOME$/go/src/github.com/docker/docker/docs/reference/api/_static" />
+      <root url="file://$USER_HOME$/go/src/github.com/docker/docker/.git" />
+      <root url="file://$USER_HOME$/go/src/github.com/samalba/dockerclient/.git" />
+      <root url="file://$USER_HOME$/go/src/github.com/docker/docker/hack/make/.build-deb" />
+      <root url="file://$USER_HOME$/go/src/github.com/fsouza/go-dockerclient/external/github.com/docker/docker/pkg/archive/testdata" />
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$USER_HOME$/go/src/github.com/docker/docker/pkg/tarsum/testdata" />
+      <root url="file://$USER_HOME$/go/src/github.com/docker/docker/hack/make/.build-rpm" />
+    </excluded>
+  </library>
+</component>
