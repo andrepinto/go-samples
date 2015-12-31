@@ -11,7 +11,10 @@ func main()  {
 	product.Id=1234
 	product.Name="PS4"
 
-	GetProductPrice(product, false).Then(
+	//simulate error
+	flag := false
+
+	GetProductPrice(product, flag).Then(
 		func(obj interface{}) error{
 			product.Price = obj.(PriceResponse).Price
 			fmt.Println(product.Name, product.Price)
@@ -23,8 +26,6 @@ func main()  {
 
 	fmt.Scanln()
 }
-
-
 
 
 type Product struct {
